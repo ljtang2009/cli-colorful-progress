@@ -44,7 +44,7 @@ const intervalId = setInterval(function () {
 
 Show a process bar in terminal. Return an instance of process bar.
 
-#### [Options Config](#options)
+#### <span id="options">Options Config</span>
 
 Options can be undefined or an object.
 
@@ -93,7 +93,7 @@ Options can be undefined or an object.
 ### setProgress(options)
 
 set any parameter of progress bar. <br />
-Options defines same as options in <a name="#options">'new ColorfulProgress(options?)'</a>.
+Options defines same as options in ['new ColorfulProgress(options?)'](#options).
 
 ## Related
 
