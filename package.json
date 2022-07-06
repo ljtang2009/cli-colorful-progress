@@ -1,0 +1,33 @@
+{
+  "name": "cli-colorful-progress",
+  "version": "1.0.0",
+  "description": "Use colorful progress-bar for command-line/terminal applications.",
+  "main": "index.js",
+  "scripts": {
+    "mock": "cross-env FORCE_COLOR=1 node mocks/index.js"
+  },
+  "author": "Tang Lijin <ho_ho_gl@hotmail.com>",
+  "keywords": [
+    "cli",
+    "progress",
+    "terminal",
+    "command line",
+    "color"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ljtang2009/cli-colorful-progress.git"
+  },
+  "homepage": "https://github.com/ljtang2009/cli-colorful-progress#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "javascript-color-gradient": "^2.4.4",
+    "log-update": "^4.0.0",
+    "mathjs": "^10.6.4",
+    "supports-color": "^8.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
